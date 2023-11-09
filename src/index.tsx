@@ -3,7 +3,6 @@ import "./index.css";
 import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 import { GoogleOAuthProvider } from "@react-oauth/google";
-import { GOOGLE_CLIENT_ID } from "./constants";
 import { SkeletonTheme } from "react-loading-skeleton";
 
 const root = ReactDOM.createRoot(
@@ -11,7 +10,9 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <BrowserRouter>
-    <GoogleOAuthProvider clientId={GOOGLE_CLIENT_ID}>
+    <GoogleOAuthProvider
+      clientId={process.env.REACT_APP_GOOGLE_CLIENT_ID || ""}
+    >
       <SkeletonTheme>
         <App />
       </SkeletonTheme>
