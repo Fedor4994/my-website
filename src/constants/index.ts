@@ -1,4 +1,4 @@
-export const API_BASE_URL = "https://my-website-api.onrender.com";
+export const API_BASE_URL = "https://my-website-api-y114.onrender.com/";
 
 export const ADMIN_EMAIL = "fedorsosnin04@gmail.com";
 
