@@ -1,0 +1,105 @@
+.home {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.socialLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  width: 90%;
+}
+
+.socialLink {
+  color: #000;
+  transition: color 0.3s ease-out;
+}
+
+.prof {
+  font-size: 22px;
+}
+
+.navigationLinks {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+
+.linkWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.navLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 7px solid #fff;
+  min-width: 100px;
+  max-width: 100%;
+  min-height: 100px;
+  max-height: 100%;
+  color: #fff;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.blackBorder {
+  border-radius: 50%;
+  border: 5px solid #000;
+}
+
+.linkText {
+  font-size: 18px;
+  color: rgb(150, 150, 150);
+}
+
+@media screen and (min-width: 1280px) {
+  .prof {
+    font-size: 32px;
+  }
+
+  .socialLink:hover {
+    color: rgb(50, 120, 129);
+  }
+
+  .navigationLinks {
+    padding: 20px;
+  }
+
+  .navLink {
+    border: 7px solid #e7e5e5;
+    color: #000;
+    background-color: rgb(231, 229, 229);
+    transition: all 0.3s ease-out;
+  }
+
+  .navLink:hover {
+    border: 7px solid #fff;
+    color: #fff;
+    background-color: #000;
+  }
+
+  .blackBorder {
+    border: 5px solid #fff;
+    transition: all 0.3s ease-out;
+  }
+
+  .blackBorder:hover {
+    border: 5px solid #000;
+  }
+}

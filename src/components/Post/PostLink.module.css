@@ -1,0 +1,15 @@
+.linkWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.data {
+  color: #828282;
+  font-size: 16px;
+}
+
+.link {
+  color: #1756a9;
+  font-size: 24px;
+}

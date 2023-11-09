@@ -1,0 +1,65 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  padding: 35px 15px;
+}
+
+.title {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+  font-size: 26px;
+  color: #222;
+}
+
+.text {
+  white-space: pre-line;
+  margin-bottom: 10px;
+}
+
+.data {
+  color: #828282;
+  margin-bottom: 10px;
+}
+
+.textWrapper {
+  position: relative;
+}
+
+.editButton {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.editInput {
+  border: 1px solid #343434;
+  border-radius: 6px;
+  width: 100%;
+  padding: 8px;
+  resize: none;
+}
+
+.editTextarea {
+  border: 1px solid #343434;
+  border-radius: 6px;
+  height: 50vh;
+  width: 100%;
+  padding: 8px;
+  resize: none;
+}
+
+.editForm {
+  width: 100%;
+}
+
+@media screen and (min-width: 1280px) {
+  .post {
+    padding: 35px 320px;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+}

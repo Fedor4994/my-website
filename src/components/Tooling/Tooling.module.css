@@ -1,0 +1,49 @@
+.tooling {
+  padding: 15px;
+  width: 90%;
+  background-color: #00c6ed;
+  border-radius: 10px;
+}
+
+.toolsList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.tool {
+  color: #00c6ed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: #08404b;
+}
+
+.skills {
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #08404b;
+}
+
+@media screen and (min-width: 768px) {
+  .tooling {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .tooling {
+    width: 400px;
+  }
+  .toolsList {
+    gap: 30px;
+  }
+}

@@ -1,0 +1,14 @@
+.title {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.commentsWrapper {
+  margin-top: 15px;
+}
+
+.empty {
+  margin-bottom: 10px;
+}
